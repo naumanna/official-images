@@ -2,7 +2,7 @@ Maintainers: Wendy Raschke <wraschke@us.ibm.com> (@wraschke),
              Andy Naumann <naumann@us.ibm.com> (@naumanna),
              Arthur De Magalhaes <arthurdm@ca.ibm.com> (@arthurdm)
 GitRepo: https://github.com/WASdev/ci.docker.git
-GitCommit: c495d9fb6638b8753a13b4432b606b7dfc30d084
+GitCommit: 05ced2adb93aecc37f175571a68bcd38b9c0e089
 Architectures: amd64, i386, ppc64le, s390x
 
 Tags: beta
@@ -11,29 +11,74 @@ Directory: beta
 Tags: 19.0.0.5-kernel, kernel
 Directory: ga/19.0.0.5/kernel
 
+Tags: 19.0.0.5-kernel-java11, kernel-java11
+Directory: ga/19.0.0.5/kernel
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
+
 Tags: 19.0.0.5-javaee8, javaee8, latest
 Directory: ga/19.0.0.5/javaee8
+
+Tags: 19.0.0.5-javaee8-java11, javaee8-java11
+Directory: ga/19.0.0.5/javaee8
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
 
 Tags: 19.0.0.5-webProfile8, webProfile8
 Directory: ga/19.0.0.5/webProfile8
 
+Tags: 19.0.0.5-webProfile8-java11, webProfile8-java11
+Directory: ga/19.0.0.5/webProfile8
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
+
 Tags: 19.0.0.5-microProfile1, microProfile1
 Directory: ga/19.0.0.5/microProfile1
+
+Tags: 19.0.0.5-microProfile1-java11, microProfile1-java11
+Directory: ga/19.0.0.5/microProfile1
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
 
 Tags: 19.0.0.5-microProfile2, microProfile2
 Directory: ga/19.0.0.5/microProfile2
 
+Tags: 19.0.0.5-microProfile2-java11, microProfile2-java11
+Directory: ga/19.0.0.5/microProfile2
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
+
 Tags: 19.0.0.5-springBoot2, springBoot2
 Directory: ga/19.0.0.5/springBoot2
+
+Tags: 19.0.0.5-springBoot2-java11, springBoot2-java11
+Directory: ga/19.0.0.5/springBoot2
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
 
 Tags: 19.0.0.5-springBoot1, springBoot1
 Directory: ga/19.0.0.5/springBoot1
 
+Tags: 19.0.0.5-springBoot1-java11, springBoot1-java11
+Directory: ga/19.0.0.5/springBoot1
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
+
 Tags: 19.0.0.5-webProfile7, webProfile7
 Directory: ga/19.0.0.5/webProfile7
 
+Tags: 19.0.0.5-webProfile7-java11, webProfile7-java11
+Directory: ga/19.0.0.5/webProfile7
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
+
 Tags: 19.0.0.5-javaee7, javaee7
 Directory: ga/19.0.0.5/javaee7
+
+Tags: 19.0.0.5-javaee7-java11, javaee7-java11
+Directory: ga/19.0.0.5/javaee7
+File: Dockerfile.java11
+Architectures: amd64, ppc64le, s390x
 
 Tags: 19.0.0.3-kernel
 Directory: ga/19.0.0.3/kernel
